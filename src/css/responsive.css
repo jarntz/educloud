@@ -1,0 +1,165 @@
+/* CSS Document */
+
+@media only screen and (max-width: 900px) {
+  .wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .title,
+  .subtitle,
+  .headline {
+    width: 100%;
+  }
+
+  .title,
+  .headline,
+  .over-titel {
+    font-size: 48px;
+    line-height: normal;
+  }
+
+  #header-nav {
+    width: 100%;
+  }
+
+  .logo {
+    width: 48px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Home */
+
+  #nav,
+  .header-visual {
+    display: none;
+  }
+
+  #header-content {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #header-arrow {
+    margin-left: 30px;
+  }
+
+  .m-visual-header {
+    display: block;
+    width: 100%;
+    margin-top: -100px;
+  }
+
+  #waarom {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -150px;
+  }
+
+  .usp {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #usp-left,
+  #usp-center {
+    height: auto;
+    margin-bottom: 100px;
+    margin-right: 0;
+  }
+
+  #usp-right {
+    height: auto;
+    margin-bottom: -50px;
+  }
+
+  #over {
+    display: none;
+  }
+
+  #visual-finder {
+    width: 100%;
+    height: 150px;
+    margin-top: 1400px;
+    margin-bottom: 400px;
+  }
+
+  .visual-finder {
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+  }
+
+  #prijzen {
+    height: auto;
+    width: 100%;
+    margin-top: -200px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #visual-prijzen-standaard,
+  #visual-prijzen-standaard img {
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-top: 34px;
+    margin-right: 0;
+  }
+
+  #visual-prijzen-pro,
+  #visual-prijzen-pro img {
+    display: none;
+  }
+
+  #m-visual-prijzen-pro,
+  #m-visual-prijzen-pro img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  #prijzen-text {
+    margin-top: 0;
+  }
+
+  #home-start {
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 1600px auto 300px auto;
+  }
+
+  /* Get */
+
+  .get-titel,
+  #get-text,
+  #get-login {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #get-login {
+    margin-top: 150px;
+    margin-bottom: 0;
+  }
+
+  #get-start {
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 400px auto 300px auto;
+  }
+}

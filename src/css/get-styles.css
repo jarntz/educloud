@@ -1,0 +1,123 @@
+/* CSS Document */
+
+#get {
+  height: 1300px;
+}
+
+.over-titel {
+  height: auto;
+  width: 100%;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 89px;
+  font-weight: 600;
+  line-height: 120px;
+  margin-bottom: 80px;
+  margin-top: 150px;
+}
+
+.over-text {
+  height: auto;
+  width: auto;
+  color: #b38383;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+#get-text {
+  width: 50%;
+  float: left;
+  padding-right: 100px;
+}
+
+#get-login {
+  width: 50%;
+  float: right;
+  padding-left: 100px;
+}
+
+#get-login-apple div,
+.signin-button {
+  width: 100%;
+  height: 52px;
+  border: none;
+  border-radius: 0;
+}
+
+#appleid-signin {
+  width: 100%;
+}
+
+label {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  color: #b38383;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+  background-color: #ddd;
+  outline: none;
+  color: #b38383;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+/* Start (CTA) */
+
+#get-start {
+  height: auto;
+  margin: 150px auto 300px auto;
+}
+
+#cta-title {
+  width: 100%;
+}
+
+.subtitle,
+.title {
+  width: 100%;
+}
+
+#start-button-cta {
+  width: 144px;
+  margin-left: auto;
+  margin-right: auto;
+}
